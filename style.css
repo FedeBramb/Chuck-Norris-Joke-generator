@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(0, 30, 56);
+    display: flex;
+    align-items: center; /* Centratura verticale */
+    justify-content: center;
+    height: 100vh;
+}
+.container {
+    background-color: #4391ff;
+    text-align: center;
+    padding: 15px;
+    align-items: center;
+}
+
+#mainButt {
+    background-color: aqua;
+    height: 40px;
+    width: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+}
+
+#jokeBox.inner {
+    display: none;
+}
+
+#jokeBox {
+    background-color: aquamarine;
+    border-color: black;
+    border-style: groove;
+    margin: 10px;
+    padding: 5px;
+}
